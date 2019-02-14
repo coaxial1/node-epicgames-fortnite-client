@@ -23,7 +23,7 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"epicgames-client": "^1.4.11",
+		"epicgames-client": "git+https://git@github.com/coaxial1/node-epicgames-client.git",
 		"request": "^2.88.0"
 	},
 	"devDependencies": {
