@@ -8,7 +8,7 @@ const Inventory = require('./Inventory');
 const {
   WaitingRoom, Endpoints: LauncherEndpoint, User, Communicator,
 // eslint-disable-next-line import/no-dynamic-require
-} = require(process.env.KYSUNE_EPICGAMES_CLIENT || 'epicgames-client');
+} = require('epicgames-client');
 const {
   BR: StatsParserBR,
 } = require('../StatsParser');
